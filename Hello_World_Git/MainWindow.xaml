@@ -6,7 +6,14 @@
         xmlns:local="clr-namespace:Hello_World_Git"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <StackPanel Orientation="Vertical">
+        <Button Margin="20"
+                Content="Click Me"
+                Width="300"
+                Height="100" Click="Button_Click"/>
 
-    </Grid>
+
+
+
+    </StackPanel>
 </Window>
