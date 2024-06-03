@@ -23,7 +23,9 @@ namespace Hello_World_Git
         //added by hah 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Hello Morning , Mingalarpar byaaaaaaaaa !!!");
+
+            MessageBox.Show("Hello Morning , Mingalarpar!!!");
+
         }
     }
 }
