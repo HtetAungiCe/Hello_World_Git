@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checks out the source code from Git repository
-                git 'https://github.com/yourusername/your-repository.git'
+                git 'https://github.com/HtetAungiCe/Hello_World_Git.git'
             }
         }
         
