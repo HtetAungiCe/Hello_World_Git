@@ -12,21 +12,21 @@ pipeline {
         stage('Restore') {
             steps {
                 // Restores dependencies using dotnet restore
-                bat 'dotnet restore Hello_World_Git.sln'
+                bat 'dotnet restore Hello_World_WPF.sln'
             }
         }
         
         stage('Build') {
             steps {
                 // Builds the .NET Core solution in Release configuration
-                bat 'dotnet build Hello_World_Git.sln --configuration Release'
+                bat 'dotnet build Hello_World_WPF.sln --configuration Release'
             }
         }
         
         stage('Publish') {
             steps {
                 // Publishes the .NET Core application to a specified directory
-                bat 'dotnet publish Hello_World_Git.sln --configuration Release --output "C:\\Users\\Lenovo\\Desktop\\publish"'
+                bat 'dotnet publish Hello_World_WPF.sln --configuration Release --output "C:\\Users\\Lenovo\\Desktop\\publish"'
             }
         }
     }
